@@ -37,6 +37,10 @@ Open `http://localhost:8501` in your browser. Localhost is only available on the
 
 This app is deployed on Streamlit Community Cloud at [eda-pro-dashboard.streamlit.app](https://eda-pro-dashboard.streamlit.app/). The deployment uses the `main` branch and `app.py` as the main file. Dependencies are installed from `requirements.txt`.
 
+## Next Project
+
+The next project will be a separate personal portfolio and introduction website. It will use Astro, TypeScript, and CSS, with no database or backend. The site will be designed for fast, free static hosting through GitHub Pages, Netlify, or Vercel.
+
 ## Requirements
 
 - Python 3.9 or newer
