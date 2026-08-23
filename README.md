@@ -2,6 +2,12 @@
 
 EDA Pro is a Streamlit dashboard for quickly exploring CSV and Excel datasets. It provides data-quality summaries, cleaning controls, interactive distributions, correlation analysis, and cleaned-data export.
 
+## Live Demo
+
+Try the deployed app here:
+
+**[Open EDA Pro](https://eda-pro-dashboard.streamlit.app/)**
+
 ## Features
 
 - Upload CSV, XLSX, and XLS files or load a sample dataset
@@ -14,6 +20,8 @@ EDA Pro is a Streamlit dashboard for quickly exploring CSV and Excel datasets. I
 
 ## Run Locally
 
+Use this only when developing or testing changes on your computer.
+
 ```powershell
 git clone https://github.com/Ahsan-Qamar-Dev/eda-pro.git
 cd eda-pro
@@ -23,11 +31,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open `http://localhost:8501` in your browser.
+Open `http://localhost:8501` in your browser. Localhost is only available on the computer running Streamlit.
 
 ## Deployment
 
-This app can be deployed to Streamlit Community Cloud. Select `app.py` as the main file and use `requirements.txt` for dependencies.
+This app is deployed on Streamlit Community Cloud at [eda-pro-dashboard.streamlit.app](https://eda-pro-dashboard.streamlit.app/). The deployment uses the `main` branch and `app.py` as the main file. Dependencies are installed from `requirements.txt`.
 
 ## Requirements
 
